@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./music-player.css">
+    <title>Oldies music player</title>
+</head>
+<body>
+    <div class="music-player">
+        <div class="music-player__header">
+            <div class="music-player__header__burgermenu">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="music-player__header__info">
+                <p>playing now</p>
+                <h1>Someone Lived This</h1>
+                <p>- Hans Zimmer -</p>
+            </div>
+            <div class="music-player__header__addbutton">
+                <div class="x-line"></div>
+                <div class="y-line"></div>
+            </div>
+        </div>
+        <div class="music-player__track_photo">
+            <img src="./images/music-player-display.jpg" alt="display photo">
+        </div>
+        <div class="music-player__track__time__wrapper">
+            <div class="music-player__track__time__line"></div>
+            <div class="music-player__track__time__values__wrapper">
+                <div class="music-player__track__begintime">3:47</div>
+                <div class="music-player__track__endtime">5:35</div>
+            </div>
+        </div>
+        <div class="music-player__buttons__wrapper">
+            <div class="music-player__button" id="reset-icon">
+                <img src="./images/icons8-synchronize-40.png" alt="reset icon">
+            </div>
+            <div class="music-player__button" id="last-icon">
+                <img src="./images/icons8-last-1-40.png" alt="last icon">
+            </div>
+            <div class="music-player__button" id="play-icon">
+                <img src="./images/icons8-play-55.png" alt="play icon">
+            </div>
+            <div class="music-player__button" id="next-icon">
+                <img src="./images/icons8-last-1-40.png" alt="next icon">
+            </div>
+            <div class="music-player__button" id="shuffle-icon">
+                <img src="./images/icons8-shuffle-40.png" alt="shuffle icon">
+            </div>
+        </div>
+        <div class="music-player__track__list">
+            <ul>
+                <li><span class="music-player__track__list__tracktitle">Sapper's Tree </span><span class="music-player__track__list__tracktime">3:37</span></li>
+                <li class="playing"><span class="music-player__track__list__tracktitle">Someone Lived This </span><span class="music-player__track__list__tracktime">5:35</span></li>
+                <li><span class="music-player__track__list__tracktitle">Summer Wind</span><span class="music-player__track__list__tracktime">2:54</span></li>
+                <li><span class="music-player__track__list__tracktitle">Orphanage</span><span class="music-player__track__list__tracktime">1:13</span></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
